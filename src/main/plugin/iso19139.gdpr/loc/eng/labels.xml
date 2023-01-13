@@ -3397,239 +3397,263 @@
 
   <!-- Gdpr -->
     <element name="gdpr:purpose">
-        <label>Doel verwerking</label>
-        <btnLabel>Doel toevoegen</btnLabel>
-        <description>Voor welk doel of voor welke samenhangende doelen verwerkt u persoonsgegevens?</description>
+      <label>Purpose of processing</label>
+      <btnLabel>Add purpose</btnLabel>
+      <description>For what purpose or for what related purposes do you process personal data?</description>
     </element>
     <element name="gdpr:MD_Purpose">
-        <label>Doel</label>
-        <description></description>
-    </element>
-    <element name="gdpr:abstract">
-        <label>Omschrijving</label>
-        <description>Omschrijving van het doel</description>
-    </element>
-    <element name="gdpr:legalBasis">
-        <label>Rechtsgrond</label>
-        <description>Verwerking van gegevens is ten aanzien van de betrokkene alleen dan rechtmatig, indien er een rechtsgrond bestaat.</description>
-    </element>
-    <element name="gdpr:name" context="/gmd:MD_Metadata/gmd:contentInfo/gdpr:MD_ContentInfo/gdpr:involves/gdpr:MD_Involved/gdpr:name">
-        <label>Omschrijving betrokkene</label>
-        <description>Omschrijving van het type betrokkene, waarvan gegevens vastgelegd worden</description>
-    </element>
-    <element name="gdpr:name" context="/gmd:MD_Metadata/gmd:contentInfo/gdpr:MD_ContentInfo/gdpr:involves/gdpr:MD_Involved/gdpr:data/gdpr:MD_Data/gdpr:name">
-        <label>Omschrijving type data</label>
-        <description>Omschrijving van het type data dat van betrokkene vastgelegd wordt (bv. vingerafdruk, ip-adres, bloed sample, adres gegevens, leeftijd, gewicht)</description>
-    </element>
-    <element name="gdpr:storagePeriod">
-        <label>Bewaartermijn</label>
-        <description>Geef aan hoe lang de gegevens maximaal bewaard mogen worden</description>
-    </element>
-    <element name="gdpr:CI_StoragePeriodCode">
-      <label>Bewaartermijn code</label>
-      <description>Geef aan hoe lang de gegevens maximaal bewaard mogen worden</description>
-    </element>
-    <element name="gdpr:source">
-        <label>Bron</label>
-        <description>De bron van de gegevens</description>
-    </element>
-    <element name="gdpr:required">
-        <label>Verplichte levering</label>
-        <description>U dient aan te geven of en waarom gebruikers verplicht zijn om hun data te verstrekken</description>
-    </element>
-    <element name="gdpr:specialData">
-        <label>Bijzondere gegevens</label>
-        <btnLabel>Voeg categorie bijzondere gegevens toe</btnLabel>
-        <description>U dient aan te geven of er gegevenssoorten worden verwerkt die vallen onder de definitie van “bijzondere categorieen van persoonsgegevens” (zie hiervoor de artikelen 9 en 10 AVG en de paragraaf 3.1 van de Uitvoeringswet AVG)</description>
-    </element>
-    <element name="gdpr:CI_SpecialDataCode">
-      <label>Bijzondere gegevens code</label>
-      <description>U dient aan te geven of er gegevenssoorten worden verwerkt die vallen onder de definitie van “bijzondere categorieen van persoonsgegevens” (zie hiervoor de artikelen 9 en 10 AVG en de paragraaf 3.1 van de Uitvoeringswet AVG)</description>
-    </element>
-    <element name="gdpr:involves">
-        <label>Betrokkenen</label>
-        <btnLabel>Voeg betrokkene toe</btnLabel>
-        <description>Categorien van individuen waarover gegevens vastgelegd worden</description>
-    </element>
-    <element name="gdpr:MD_Involved">
-        <label>Betrokkene</label>
-        <description>Categorien van individuen waarover gegevens vastgelegd worden</description>
-    </element>
-    <element name="gdpr:MD_Data">
-        <label>Categorie van Data</label>
-        <description></description>
-    </element>
-    <element name="gdpr:data">
-        <label>Data</label>
-        <btnLabel>Voeg categorie data toe</btnLabel>
-        <description>Beschrijf een categorie van data</description>
-    </element>
-    <element name="gdpr:MD_ContentInfo">
-      <label>AVG Informatie</label>
-      <description>Informatie over persoonlijke gegevens</description>
-    </element>
-    <element name="gdpr:goal">
-      <label>Verzameldoel</label>
-      <description>Doel van verzameling</description>
-    </element>
-    <element name="gdpr:automaticDecisionMaking">
-      <label>Geautomitiseerde besluitvorming</label>
-      <description>Een voorbeeld van een vorm van geautomatiseerde besluitvorming met een rechtsgevolg is de opzegging van een arbeidscontract omdat de computer aangeeft dat de werknemer een risico vormt voor de organisatie. Een vorm van profilering die mensen in aanzienlijke mate treft is het opstellen van bijvoorbeeld een kredietwaardigheidsprofiel. Wanneer er sprake is van geautomatiseerde besluitvorming, is het risico voor de betrokkene bij de verwerking hoog. De desbetreffende beslissing kan grote impact op zijn persoonlijke levenssfeer hebben en dient dan ook met voldoende waarborgen te zijn omkleed.
-
-  De informatie over geautomatiseerde besluitvorming moet aan de betrokkene worden verstrekt, inclusief nuttige informatie over de onderliggende logica, het belang van de verwerking en de verwachte gevolgen van die verwerking voor de betrokkene. Dat moet op het moment van verzamelen van de gegevens, en ook wanneer de betrokkene om inzage van zijn gegevens verzoekt.</description>
-    </element>
-    <element name="gdpr:ProcesType">
-      <label>Proces Type</label>
-      <description>Het type proces</description>
-    </element>
-    <element name="gdpr:responsibilityDivision">
-      <label>Verdeling verantwoordelijkheden</label>
-      <btnLabel>Add responsible division</btnLabel>
-      <description>Bij meer dan 1 verwerkingsverantwoordelijke moet er een onderlinge regeling tussen de verantwoordelijken zijn, waarin zij hun respectieve verantwoordelijkheden hebben vastgesteld voor het nakomen van de verplichtingen van de AVG. </description>
-    </element>
-    <element name="gdpr:hasAutomaticDecisionMaking">
-      <label>Geautomatiseerde besluitvorming</label>
-      <btnLabel>Add automated decision-making</btnLabel>
-      <description>Is er sprake van geautomatiseerde besluitvorming?</description>
-    </element>
-    <element name="gdpr:logic">
-      <label>Logica</label>
-      <description>Wat is de achterliggende logica?</description>
-    </element>
-    <element name="gdpr:importanceAndConsequences">
-      <label>Belang en gevolgen</label>
-      <description>Wat is het belang en wat zijn de verwachte gevolgen van die verwerking voor de betrokkene?</description>
-    </element>
-    <element name="gdpr:receiverType">
-      <label>Categorie ontvanger</label>
-      <description>Selecteer een categorie ontvanger</description>
-    </element>
-    <element name="gdpr:description">
-      <label>Omschrijving</label>
-      <description>Indien derden, geef een omschrijving van de categorie ontvanger</description>
-    </element>
-    <element name="gdpr:security">
-      <label>Beveiliging</label>
-      <btnLabel>Beveiliging toevoegen</btnLabel>
-      <description>Een passend beveiligingsniveau veronderstelt dat gewerkt wordt met een planning- en controlcyclus (plan-do-check-act) aan de hand waarvan kan worden beoordeeld of de beveiliging steeds adequaat is voor de huidige stand van de techniek en de organisatie. Voor te treffen maatregelen kan worden aangehaakt bij beveiligingskaders en –standaarden (zoals NEN 27001), beste praktijken en goedgekeurde gedragscodes en certificeringsmechanismes. Voor de Rijksoverheid zijn er het Voorschrift Informatiebeveiliging Rijksdienst (VIR) en de daarvan afgeleide Baseline Informatiebeveiliging Rijksdienst (BIR). De VIR en het BIR worden in 2017 geactualiseerd.</description>
-    </element>
-    <element name="gdpr:MD_Security">
-      <label>Beveiliging</label>
+      <label>Purpose</label>
       <description></description>
     </element>
-  <element name="gdpr:hasSecurity">
-      <label>Beveiligt u de persoonsgegevens?</label>
-      <description>Geef aan of u de persoonsgegevens beveiligt</description>
+    <element name="gdpr:abstract">
+      <label>Description</label>
+      <description>Description of the puprose</description>
     </element>
-  <element name="gdpr:securityMeasures">
-  <label>Maatregelen</label>
-  <description>Welke maatregelen heeft u genomen om de persoonsgegevens te beschermen?</description>
-  </element>
-  <element name="gdpr:accessParty">
-  <label>Wie heeft toegang tot de persoonsgegevens?</label>
-  <description>Meerdere antwoorden mogelijk</description>
-  </element>
-  <element name="gdpr:externalAccessDetails">
-  <label>Derden</label>
-  <description>Beschrijf welke derde partijen toegang krijgen</description>
-  </element>
-  <element name="gdpr:transmitPrivateNetwork">
-  <label>Eigen netwerk</label>
-  <description>Verzendt u gegevens langs electronische weg over een eigen netwerk?</description>
-  </element>
-  <element name="gdpr:transmitPublicNetwork">
-  <label>Publiek netwerk</label>
-  <description>Verzendt u gegevens langs electronische weg over een publiek netwerk?</description>
-  </element>
-  <element name="gdpr:encryptedTransmit">
-  <label>Encryptie bij verzenden</label>
-  <description>Gebruikt u versleuteling tijdens verzenden?</description>
-  </element>
-  <element name="gdpr:encryptedStorage">
-  <label>Encryptie bij opslag</label>
-  <description>Gebruikt u versleuteling tijdens de opslag?</description>
-  </element>
-  <element name="gdpr:pseudonimization">
-  <label>Pseudonimisering</label>
-  <description>Gebruikt u Pseudonimisering? Pseudonimiseren is een procedure waarmee identificerende gegevens met een bepaald algoritme worden vervangen door versleutelde gegevens (het pseudoniem). Het algoritme kan voor een persoon altijd hetzelfde pseudoniem berekenen, waardoor informatie over de persoon, ook uit verschillende bronnen, kan worden gecombineerd. Daarin onderscheidt pseudonimiseren zich van anonimiseren, waarbij het koppelen op persoon van informatie uit verschillende bronnen niet mogelijk is.</description>
-  </element>
+    <element name="gdpr:legalBasis">
+      <label>Legal basis</label>
+      <description>Processing of data is only lawful with regard to the data subject if there is a legal basis.</description>
+    </element>
+    <element name="gdpr:name" context="/gmd:MD_Metadata/gmd:contentInfo/gdpr:MD_ContentInfo/gdpr:involves/gdpr:MD_Involved/gdpr:name">
+      <label>Description of person concerned</label>
+      <description>Description of the type of data subject, whose data is recorded</description>
+    </element>
+    <element name="gdpr:name" context="/gmd:MD_Metadata/gmd:contentInfo/gdpr:MD_ContentInfo/gdpr:involves/gdpr:MD_Involved/gdpr:data/gdpr:MD_Data/gdpr:name">
+      <label>Description of type of data</label>
+      <description>Description of the type of data that is recorded from the data subject (e.g. fingerprint, IP address, blood sample, address data, age, weight)</description>
+    </element>
+    <element name="gdpr:storagePeriod">
+      <label>Storage period</label>
+      <description>Indicate how long the data may be stored for</description>
+    </element>
+    <element name="gdpr:CI_StoragePeriodCode">
+      <label>Storage period code</label>
+      <description>Indicate how long the data may be stored for</description>
+    </element>
+    <element name="gdpr:source">
+      <label>Source</label>
+      <description>The source of the data</description>
+    </element>
+    <element name="gdpr:required">
+      <label>Mandatory delivery</label>
+      <description>You must indicate whether and why users are obliged to provide their data</description>
+    </element>
+    <element name="gdpr:specialData">
+      <label>Special data</label>
+      <btnLabel>Add special data category</btnLabel>
+      <description>You must indicate whether data types are processed that fall under the definition of "special categories of personal data" (see articles 9 and 10 GDPR and paragraph 3.1 of the GDPR Implementation Act)</description>
+    </element>
+    <element name="gdpr:CI_SpecialDataCode">
+      <label>Special data code</label>
+      <description>You must indicate whether data types are processed that fall under the definition of "special categories of personal data" (see articles 9 and 10 GDPR and paragraph 3.1 of the GDPR Implementation Act)</description>
+    </element>
+    <element name="gdpr:involves">
+      <label>Data subjects</label>
+      <btnLabel>Add data subject</btnLabel>
+      <description>Categories of individuals about whom data is recorded</description>
+    </element>
+    <element name="gdpr:MD_Involved">
+      <label>Data subject</label>
+      <description>Categories of individuals about whom data is recorded</description>
+    </element>
+    <element name="gdpr:MD_Data">
+      <label>Category of Data</label>
+      <description></description>
+    </element>
+    <element name="gdpr:data">
+      <label>Data</label>
+      <btnLabel>Add data category</btnLabel>
+      <description>Describe a category of data</description>
+    </element>
+    <element name="gdpr:MD_ContentInfo">
+      <label>GDPR Information</label>
+      <description>Information about personal data</description>
+    </element>
+    <element name="gdpr:goal">
+      <label>Collection purpose</label>
+      <description>Purpose of collection</description>
+    </element>
+    <element name="gdpr:automaticDecisionMaking">
+      <label>Automated decision-making</label>
+      <description>An example of a form of automated decision-making with legal consequences is the termination of an employment contract because the computer indicates that the employee poses a risk to the organisation. 
+      A form of profiling that affects people to a considerable extent is, for example, drawing up a creditworthiness profile. When there is automated decision-making, the risk to the data subject in the processing is high. 
+      The decision in question can have a major impact on their privacy and should therefore be backed up with sufficient security measures.
+
+      The information about automated decision-making should be provided to the data subject, including useful information about the underlying logic, the importance of the processing 
+      and the expected consequences of that processing for the data subject. This must be done at the time of collecting the data, and also when the data subject requests access to their data.</description>
+    </element> 
+    <element name="gdpr:ProcesType">
+      <label>Process Type</label>
+      <description>The type of process</description>
+    </element>
+    <element name="gdpr:responsibilityDivision">
+      <label>Division of responsibilities</label>
+      <btnLabel>Add responsible division</btnLabel>
+      <description>In the case of more than 1 controller, there must be an arrangement between the controllers, in which they have established their respective responsibilities for complying with the obligations of the GDPR.</description>
+    </element>
+    <element name="gdpr:hasAutomaticDecisionMaking">
+      <label>Automated decision-making</label>
+      <btnLabel>Add automated decision-making</btnLabel>
+      <description>Is there automated decision-making?</description>
+    </element>
+    <element name="gdpr:logic">
+      <label>Logic</label>
+      <description>What is the underlying logic?</description>
+    </element>
+    <element name="gdpr:importanceAndConsequences">
+      <label>Importance and consequences</label>
+      <description>What is the importance and what are the expected consequences of the processing for the data subject?</description>
+    </element>
+    <element name="gdpr:receiverType">
+      <label>Recipient type</label>
+      <description>Select a recipient category</description>
+    </element>
+    <element name="gdpr:description">
+      <label>Description</label>
+      <description>If third parties, provide a description of the recipient category</description>
+    </element>
+    <element name="gdpr:security">
+      <label>Security</label>
+      <btnLabel>Add security measure</btnLabel>
+      <description>An appropriate security level assumes that a planning and control cycle (plan-do-check-act) is used, which can be used to assess whether the security is always adequate for the current state of technology and the organization. 
+      For measures to be taken, security frameworks and standards (such as NEN 27001), best practices and approved codes of conduct and certification mechanisms can be used. 
+      For the central government, there are the Regulations for Information Security of the Civil Service (VIR) and the Baseline Information Security of the Civil Service (BIR) derived from it. 
+      The VIR and the BIR will be updated in 2017.</description>
+    </element>
+    <element name="gdpr:MD_Security">
+      <label>Security</label>
+      <description></description>
+    </element>
+    <element name="gdpr:hasSecurity">
+      <label>Do you secure the personal data?</label>
+      <description>Indicate whether you protect the personal data</description>
+    </element>
+    <element name="gdpr:securityMeasures">
+      <label>Security measures</label>
+      <description>What measures have you taken to protect the personal data?</description>
+    </element>
+    <element name="gdpr:accessParty">
+      <label>Who has access to the personal data?</label>
+      <description>Multiple answers possible</description>
+    </element>
+    <element name="gdpr:externalAccessDetails">
+      <label>Third parties</label>
+      <description>Describe which third parties will have access to the data</description>
+    </element>
+    <element name="gdpr:transmitPrivateNetwork">
+      <label>Own network</label>
+      <description>Do you send data electronically over your own network?</description>
+    </element>
+    <element name="gdpr:transmitPublicNetwork">
+      <label>Public network</label>
+      <description>Do you send data electronically over a public network?</description>
+    </element>
+    <element name="gdpr:encryptedTransmit">
+      <label>Encryption when sending</label>
+      <description>Do you use encryption when sending data?</description>
+    </element>
+    <element name="gdpr:encryptedStorage">
+      <label>Encryption on storage</label>
+      <description>Do you use encryption during storage?</description>
+    </element>
+    <element name="gdpr:pseudonimization">
+      <label>Pseudonymization</label>
+      <description>Do you use Pseudonymization? Pseudonymization is a procedure by which identifying data with a certain algorithm is replaced with encrypted data (the pseudonym). 
+      The algorithm can always calculate the same pseudonym for a person, so that information about the person, also from different sources, can be combined. 
+      Pseudonymization differs from anonymization, in which it is not possible to link information from different sources to a person.</description>
+    </element>
     <element name="gdpr:processorAgreement">
-      <label>Verwerkersovereenkomst</label>
-      <description>Geef het pad op waar de verwerkersovereenkomst opgeslagen is, deze kan eventueel geupload worden in het systeem met de 'download toevoegen' knop</description>
+      <label>Processing agreement</label>
+      <description>Enter the path where the processing agreement is stored, it can be uploaded in the system with the 'add download' button</description>
     </element>
     <element name="gdpr:hasPersonalEffect">
-    <label>Persoonlijk getroffen</label>
-    <description>Is er sprake van een systematische en uitgebreide beoordeling van persoonlijke aspecten van natuurlijke personen, die is gebaseerd op geautomatiseerde verwerking, waaronder profilering, en waarop besluiten worden gebaseerd waaraan voor de natuurlijke persoon rechtsgevolgen zijn verbonden of die de natuurlijke persoon op vergelijkbare wijze wezenlijk treffen?</description>
-
-  </element>
-  <element name="gdpr:hasSpecialData">
-    <label>Bijzondere categorieën van persoonsgegevens</label>
-    <description>Is er sprake van grootschalige verwerking van bijzondere categorieën van persoonsgegevens of van gegevens met betrekking tot strafrechtelijke veroordelingen en strafbare feiten?</description>
-  </element>
-  <element name="gdpr:hasSurveilance">
-    <label>Monitoring openbare ruimtes</label>
-    <description>Is er sprake van stelselmatige en grootschalige monitoring van openbaar toegankelijke ruimtes?</description>
-  </element>
-  <element name="gdpr:touchesRights">
-    <label>Andere redenen</label>
-    <description>Houdt de soort verwerking, gelet op de aard, de omvang, de context en de doeleinden daarvan om andere redenen waarschijnlijk een hoog risico in voor de rechten en vrijheden van natuurlijke personen?</description>
-  </element>
+      <label>Personally affected</label>
+      <description>Is there a systematic and comprehensive assessment of personal aspects of natural persons, which is based on automated processing, including profiling, 
+      and on what decisions are based which have legal consequences for the natural person or which substantially affect the natural person in a similar way?</description>
+    </element>
+    <element name="gdpr:hasSpecialData">
+      <label>Special categories of personal data</label>
+      <description>Is there any large-scale processing of special categories of personal data or data relating to criminal convictions and offences?</description>
+    </element>
+    <element name="gdpr:hasSurveilance">
+      <label>Monitoring public areas</label>
+      <description>Is there systematic and large-scale monitoring of publicly accessible areas?</description>
+    </element>
+    <element name="gdpr:touchesRights">
+      <label>Other reasons</label>
+      <description>Taking into account its nature, scope, context and purposes, is the type of processing likely to pose a high risk to the rights and freedoms of natural persons for other reasons?</description>
+    </element>
     <element name="gdpr:MD_Transmission">
-      <label>Doorgifte</label>
-      <description>Vind doorgifte plaats buiten EU?</description>
+      <label>Transfer</label>
+      <description>Does the transfer take place outside the EU?</description>
     </element>
     <element name="gdpr:outsideEU">
-      <label>Buiten EU</label>
-      <description>Geeft u bij uw gegevensverwerking persoonsgegevens door aan één of meer landen buiten de Europese Unie of aan een internationale organisatie?</description>
+      <label>Outside EU</label>
+      <description>When processing your data, do you pass on personal data to one or more countries outside the European Union or to an international organisation?</description>
     </element>
     <element name="gdpr:outsideEUDetails">
-      <label>Details landen/organisaties</label>
-      <description>Vermeld hier land(en) en/of internationale organisatie(s).</description>
+      <label>Countries/organizations details</label>
+      <description>State country(ies) and/or international organisation(s) here.</description>
     </element>
     <element name="gdpr:appropriateProtectionLevel">
-      <label>Passend beschermingsniveau</label>
-      <description>Worden de gegevens uitsluitend doorgegeven aan landen (of een of meerdere delen daarvan) buiten de EU , of internationale organisaties waarvan de Commissie heeft besloten dat zij een passend beschermingsniveau waarborgen?</description>
+      <label>Appropriate level of protection</label>
+      <description>Will the data only be transferred to countries (or one or more parts thereof) outside the EU, or international organizations which the Commission has decided guarantee an adequate level of protection?</description>
     </element>
-
-  <element name="gdpr:CI_SecurityMeasures">
-      <label>Beveiligingsmaatregelen</label>
-      <btnLabel>Beveiligingsmaatregelen toevoegen</btnLabel>
-      <description>Een passend beveiligingsniveau veronderstelt dat gewerkt wordt met een planning- en controlcyclus (plan-do-check-act) aan de hand waarvan kan worden beoordeeld of de beveiliging steeds adequaat is voor de huidige stand van de techniek en de organisatie. Voor te treffen maatregelen kan worden aangehaakt bij beveiligingskaders en –standaarden (zoals NEN 27001), beste praktijken en goedgekeurde gedragscodes en certificeringsmechanismes. Voor de Rijksoverheid zijn er het Voorschrift Informatiebeveiliging Rijksdienst (VIR) en de daarvan afgeleide Baseline Informatiebeveiliging Rijksdienst (BIR). De VIR en het BIR worden in 2017 geactualiseerd.</description>
+    <element name="gdpr:CI_SecurityMeasures">
+      <label>Security measures</label>
+      <btnLabel>Add security measure</btnLabel>
+      <description>An appropriate security level assumes that a planning and control cycle (plan-do-check-act) is used, which can be used to assess whether the security is always adequate for the current state of technology and the organization. 
+      For measures to be taken, security frameworks and standards (such as NEN 27001), best practices and approved codes of conduct and certification mechanisms can be used. 
+      For the national government, there are the Regulations for Information Security of the Government Service (VIR) and the Baseline Information Security of the Government Service (BIR) derived from it. 
+      The VIR and the BIR will be updated in 2017.</description>
     </element>
     <element name="gdpr:CI_AccessParty">
-      <label>Toegangs categorie</label>
+      <label>Access party</label>
       <description></description>
     </element>
     <element name="gdpr:provision">
-      <label>Verstrekking</label>
-      <btnLabel>Ontvanger toevoegen</btnLabel>
-      <description>Wie kunnen ontvangers zijn? De ontvanger kan zowel een persoon binnen de organisatie van de verantwoordelijke zijn als een persoon buiten de organisatie van de verantwoordelijke (verwerker of derde). Is er sprake van een hiërarchische relatie tot de verwerkingsverantwoordelijke dan vindt de gegevensverwerking plaats binnen de organisatie van de verwerkingsverantwoordelijke en onder diens rechtstreeks gezag. Let op dat dit niet altijd personen zijn die rechtstreeks toegang hebben tot de persoonsgegevens in verwerking. Valt de persoon niet onder rechtstreeks gezag van de verantwoordelijke maar is er wel sprake van een (contractuele) relatie met de verwerkingsverantwoordelijke met betrekking tot de te verwerken persoonsgegevens, dan kan die persoon worden aangemerkt als verwerker. Valt de persoon niet onder rechtstreeks gezag van de verantwoordelijke en is er evenmin sprake van een ‘verwerkersrelatie’, dan is de persoon als derde aan te merken (zie artikel 4, onder 10, AVG). In tegenstelling tot de verwerker zal de ‘derde’ de gegevens veelal voor eigen behoefte verwerken. De beschrijving die u geeft van de ontvangers moet een zo nauwkeurig mogelijk beeld geven van de categorieën van ontvangers. Dit betekent dat de verstrekkingen zo mogelijk individueel dienen te worden vermeld. Gaat het echter om groepen van ontvangers, dan moeten deze worden beschreven. De ontvangers mogen in categorieën worden gegroepeerd, voor zover dat nog een goed beeld weergeeft van de verwerking</description>
+      <label>Provision</label>
+      <btnLabel>Add recipient</btnLabel>
+      <description>Who can be recipients? 
+      The recipient can be a person within the organization of the responsible person as well as a person outside the organization of the responsible person (processor or third party). 
+      If there is a hierarchical relationship with the controller, the data processing takes place within the organization of the controller and under their direct authority. 
+      Please note that these are not always persons who have direct access to the personal data being processed. 
+      Does the person not fall under the direct authority of the controller, but is there a (contractual) relationship with the controller with regard to the personal data to be processed, then that person can be regarded as a processor. 
+      If the person does not fall under the direct authority of the responsible party and there is also no processing relationship, then the person can be regarded as a third party (see Article 4, under 10, GDPR). 
+      Unlike the processor, the 'third party' will often process the data for its own needs. The description you give of the recipients should be as accurate as possible about the categories of recipients. 
+      This means that the benefits should be listed individually if possible. However, if groups of recipients are concerned, these must be described. 
+      The recipients may be grouped into categories, insofar as this still gives a good picture of the processing</description>
     </element>
     <element name="gdpr:transmission">
-      <label>Doorgifte</label>
-      <btnLabel>Doorgifte toevoegen</btnLabel>
-      <description>Doorgifte van persoonsgegevens binnen de EU
-Binnen de EU is het niveau van gegevensbescherming op grond van de AVG gelijk. Dat komt omdat de AVG van toepassing is binnen alle EU-lidstaten. De EU is daarom één rechtsgebied bij de bescherming van persoonsgegevens. Geeft een organisatie gegevens door van Nederland naar een ander EU-land of aan de landen binnen de Europese Economische Ruimte (EER, dit zijn Noorwegen, Liechtenstein en IJsland) dan hoeft die organisatie alleen te voldoen aan de algemene eisen uit de AVG. Deze ‘ontvangende’ landen hebben in ieder geval een passend niveau van bescherming van persoonsgegevens.</description>
+      <label>Transfer</label>
+      <btnLabel>Add transfer</btnLabel>
+      <description>Transfer of personal data within the EU. 
+      
+      Within the EU, the level of data protection under the GDPR is the same. That's because the GDPR applies in all EU member states. 
+      The EU is therefore one jurisdiction in the protection of personal data. If an organization transfers data from the Netherlands to another EU country or to countries within the European Economic Area (EEA, these are Norway, Liechtenstein and Iceland), then that organization only has to comply with the general requirements of the GDPR. 
+      These 'receiving' countries in any case have an appropriate level of protection of personal data.</description>
     </element>
     <element name="gdpr:MD_AutomaticDecisionMaking">
-      <label>Geautomitiseerde besluitvorming</label>
-  </element>
+      <label>Automated decision-making</label>
+    </element>
     <element name="gdpr:MD_Pia">
-      <label>GEB</label>
-  </element>
+      <label>DPIA</label>
+    </element>
     <element name="gdpr:pia">
-      <label>GegevensEffectBeoordeling (GEB)</label>
-      <btnLabel>GEB toevoegen</btnLabel>
-      <description>Wanneer moet een gegevensbeschermingseffectbeoordeling worden uitgevoerd? De verwerkingsverantwoordelijke is verplicht een gegevensbeschermingseffectbeoordeling uit te voeren voor verwerkingen die waarschijnlijk een hoog risico inhouden voor de rechten en vrijheden van natuurlijke personen (de betrokkenen). De rijksoverheid is daarnaast verplicht een gegevensbeschermingseffectbeoordeling uit te voeren bij de ontwikkeling van beleid en regelgeving waaruit verwerkingen van persoonsgegevens voortvloeien. Zie hiervoor de Model gegevensbeschermingseffectbeoordeling rijksdienst (PIA).Wanneer is er sprake van een ‘hoog risico’? </description>
+      <label>Data Protection Impact Assessment (DPIA)</label>
+      <btnLabel>Add DPIA</btnLabel>
+      <description>When should a data protection impact assessment be carried out? The controller is obliged to carry out a data protection impact assessment for 
+      processing that is likely to pose a high risk to the rights and freedoms of natural persons (the data subjects). The national government is also obliged to carry out a data protection impact assessment 
+      to carry out in the development of policy and regulations from which the processing of personal data ensues. See the Model Data Protection Impact Assessment for the Government Service (DPIA) for this. 
+      When is there a 'high risk'?</description>
     </element>
     <element name="gdpr:requiresPIA">
-      <label>Is GEB noodzakelijk?</label>
-      <btnLabel>GEB toevoegen</btnLabel>
-      <description>Is uit analyse gebleken dat een GEB verplicht is voor deze verwerking</description>
+      <label>Is DPIA necessary?</label>
+      <btnLabel>Add DPIA</btnLabel>
+      <description>Has analysis shown that a DPIA is mandatory for this processing?</description>
     </element>
     <element name="gdpr:piaUrl">
-      <label>GEB document</label>
-      <btnLabel>document toevoegen</btnLabel>
-      <description>Geef het pad op naar het GEB document en/of upload in het systeem</description>
+      <label>DPIA document</label>
+      <btnLabel>Add document</btnLabel>
+      <description>Specify the path to the DPIA document and/or upload it in the system</description>
     </element>
 </labels>
