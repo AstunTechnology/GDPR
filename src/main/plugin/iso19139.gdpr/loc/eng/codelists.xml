@@ -2284,69 +2284,69 @@
   <codelist name="gdpr:CI_LegalBasisCode">
     <entry>
       <code>permission-person-concerned</code>
-      <label>Toestemming betrokkene</label>
+      <label>Permission of the person concerned</label>
     </entry>
     <entry>
       <code>implementation-agreement</code>
-      <label>Uitvoering overeenkomst</label>
+      <label>Implementation agreement</label>
     </entry>
     <entry>
       <code>legal-obligation</code>
-      <label>Wettelijke verplichting</label>
+      <label>Legal obligation</label>
     </entry>
     <entry>
       <code>vital-interest</code>
-      <label>Vitaal belang betrokkene</label>
+      <label>Vital interest of the person concerned</label>
     </entry>
     <entry>
       <code>common-interest</code>
-      <label>Taak van algemeen belang</label>
+      <label>Public interest task</label>
     </entry>
     <entry>
       <code>justified-interest</code>
-      <label>Gerechtvaardigd belang verantwoordelijke</label>
+      <label>Legitimate interest</label>
     </entry>
   </codelist>
   <codelist name="gdpr:CI_SpecialDataCode">
     <entry>
       <code>none</code>
-      <label>Geen</label>
+      <label>None</label>
     </entry>
     <entry>
       <code>ethnical-data</code>
-      <label>Persoonsgegevens waaruit ras of etnische afkomst blijkt</label>
+      <label>Personal data showing race or ethnic origin</label>
     </entry>
     <entry>
       <code>political-data</code>
-      <label>Persoonsgegevens waaruit politieke opvattingen blijkt</label>
+      <label>Personal data showing political views</label>
     </entry>
     <entry>
       <code>religous-data</code>
-      <label>Persoonsgegevens waaruit religieuze of levensbeschouwelijke overtuiging blijkt</label>
+      <label>Personal data showing religious or philosophical beliefs</label>
     </entry>
     <entry>
       <code>union-membership-data</code>
-      <label>Persoonsgegevens waaruit lid van een vakbond blijkt</label>
+      <label>Personal data showing membership of a trade union</label>
     </entry>
     <entry>
       <code>genetic-data</code>
-      <label>Genetische gegevens</label>
+      <label>Genetic data</label>
     </entry>
     <entry>
       <code>biometric-data</code>
-      <label>Biometrische gegevens met het oog op de unieke identificatie van een persoon</label>
+      <label>Biometric data for the purpose of uniquely identifying a person</label>
     </entry>
     <entry>
       <code>health-data</code>
-      <label>Gegevens over gezondheid</label>
+      <label>Health data</label>
     </entry>
     <entry>
       <code>sexual-data</code>
-      <label>Gegevens met betrekking tot iemands sexueel gedrag of seksuele geaardheid</label>
+      <label>Data related to a person's sexual behavior or sexual orientation</label>
     </entry>
     <entry>
       <code>crime-data</code>
-      <label>Gegevens betreffende strafrechtelijke veroordelingen en strafbare feiten</label>
+      <label>Data regarding criminal convictions and offences</label>
     </entry>
   </codelist>
   <codelist name="gdpr:CI_StoragePeriodCode">
@@ -2418,11 +2418,11 @@
     </entry>
     <entry>
       <code>1.4</code>
-      <label>Develop standards, methods, protocols, indicators etc.</label>
+      <label>Developing standards, methods, protocols, indicators etc.</label>
     </entry>
     <entry>
       <code>1.5</code>
-      <label>Meeting in which RIVM is chairman and / or secretary</label>
+      <label>Meeting in which SAGE is chairman and / or secretary</label>
     </entry>
     <entry>
       <code>1.6</code>
@@ -2430,7 +2430,7 @@
     </entry>
     <entry>
       <code>1.7</code>
-      <label>Meeting in which RIVM is not a chairman and / or secretary</label>
+      <label>Meeting in which SAGE is not a chairman and / or secretary</label>
     </entry>
     <entry>
       <code>2</code>
@@ -2454,7 +2454,7 @@
     </entry>
     <entry>
       <code>3.1</code>
-      <label>Initiate research, determine design research design and results</label>
+      <label>Initiating research, determining design research design and results</label>
     </entry>
     <entry>
       <code>3.2</code>
@@ -2470,7 +2470,7 @@
     </entry>
     <entry>
       <code>4</code>
-      <label>Support implementation of policy and research</label>
+      <label>Supporting implementation of policy and research</label>
     </entry>
     <entry>
       <code>4.1</code>
@@ -2486,7 +2486,7 @@
     </entry>
     <entry>
       <code>4.4</code>
-      <label>Provide education and information to professionals</label>
+      <label>Providing education and information to professionals</label>
     </entry>
     <entry>
       <code>4.5</code>
@@ -2506,7 +2506,7 @@
     </entry>
     <entry>
       <code>5.1</code>
-      <label>Perform checks / keep supervision</label>
+      <label>Performing checks / keeping supervision</label>
     </entry>
     <entry>
       <code>5.2</code>
@@ -2534,7 +2534,7 @@
     </entry>
     <entry>
       <code>6.4</code>
-      <label>Perform measurements to determine crisis situations</label>
+      <label>Performing measurements to determine crisis situations</label>
     </entry>
     <entry>
       <code>6.5</code>
@@ -2542,7 +2542,7 @@
     </entry>
     <entry>
       <code>6.6</code>
-      <label>Conduct research after crises and disasters to determine long-term consequences</label>
+      <label>Conducting research after crises and disasters to determine long-term consequences</label>
     </entry>
     <entry>
       <code>6.7</code>
@@ -2566,11 +2566,11 @@
     </entry>
     <entry>
       <code>7.4</code>
-      <label>Develop, establish, certify and maintain procedures and regulations with regard to safe working</label>
+      <label>Developing, establishing, certifying and maintaining procedures and regulations with regard to safe working</label>
     </entry>
     <entry>
       <code>7.5</code>
-      <label>Consultation on RIVM / sector / domain level</label>
+      <label>Consultation on PHE / sector / domain level</label>
     </entry>
     <entry>
       <code>7.6</code>
@@ -2654,7 +2654,7 @@
     </entry>
     <entry>
       <code>9.2</code>
-      <label>to report in writing information about working with hazardous substances</label>
+      <label>Reporting in-writing information about working with hazardous substances</label>
     </entry>
     <entry>
       <code>9.3</code>
@@ -2674,85 +2674,85 @@
   <codelist name="gdpr:CI_ProcesTypeCode">
     <entry>
       <code>primary</code>
-      <label>Primair</label>
+      <label>Primary</label>
     </entry>
     <entry>
       <code>secondary</code>
-      <label>Secundair</label>
+      <label>Secondary</label>
     </entry>
   </codelist>
   <codelist name="gdpr:CI_ReceiverTypeCode">
     <entry>
       <code>coworker</code>
-      <label>1. Eigen medewerkers</label>
+      <label>1. Own employees</label>
     </entry>
     <entry>
       <code>processor</code>
-      <label>2. Verwerkers</label>
+      <label>2. Processors</label>
     </entry>
     <entry>
       <code>external</code>
-      <label>3. Derden</label>
+      <label>3. Third parties</label>
     </entry>
   </codelist>
   <codelist name="gdpr:CI_SecurityMeasuresCode">
     <entry>
       <code>access-control-policy</code>
-      <label>01. Vastgesteld beveiligingsbeleid dat ook is geïmplementeerd</label>
+      <label>01. Established security policies that are also implemented</label>
     </entry>
     <entry>
       <code>physical-access-control</code>
-      <label>02. Fysieke maatregelen voor toegangsbeveiliging, inclusief organisatorische controle</label>
+      <label>02. Physical access security measures, including organizational control</label>
     </entry>
     <entry>
       <code>burglary-alarm</code>
-      <label>03. Inbraakalarm</label>
+      <label>03. Burglary alarm</label>
     </entry>
     <entry>
       <code>vault</code>
-      <label>04. Kluis voor opslag van gegevensbestanden</label>
+      <label>04. Safe for storage of data files</label>
     </entry>
     <entry>
       <code>key-access-control</code>
-      <label>05. Logische toegangscontrole met behulp van iets wat iemand weet (wachtwoord of pincode)</label>
+      <label>05. Logical access control using something someone knows (password or PIN)</label>
     </entry>
     <entry>
       <code>token-access-control</code>
-      <label>06. Logische toegangscontrole met behulp van iets wat iemand bij zich draagt (pasje)</label>
+      <label>06. Logical access control using something someone carries (card)</label>
     </entry>
     <entry>
       <code>biometrical-access-control</code>
-      <label>07. Logische toegangscontrole met behulp van iets wat bij iemand hoort (biometrisch kenmerk)</label>
+      <label>07. Logical access control using something that belongs to someone (biometric characteristic)</label>
     </entry>
     <entry>
       <code>other-access-control</code>
-      <label>08. Overige logische toegangscontrole</label>
+      <label>08. Other logical access control</label>
     </entry>
     <entry>
       <code>access-logs</code>
-      <label>09. Automatische logging van toegang tot gegevens, inclusief een controleprocedure</label>
+      <label>09. Automatic logging of data access, including a control procedure</label>
     </entry>
     <entry>
       <code>authorisation-control</code>
-      <label>10. Controle op toegekende bevoegdheden</label>
+      <label>10. Control of assigned authorizations</label>
     </entry>
     <entry>
       <code>other-measures</code>
-      <label>11. Overige beveiligingsmaatregelen</label>
+      <label>11. Other security measures</label>
     </entry>
   </codelist>
   <codelist name="gdpr:CI_AccessPartyCode">
     <entry>
       <code>coworker</code>
-      <label>1. Personeel dat onder leiding van de verantwoordelijke staat</label>
+      <label>1. Personnel under the direction of the responsible party</label>
     </entry>
     <entry>
       <code>processor</code>
-      <label>2. Personeel dat onder leiding van de verwerker staat</label>
+      <label>2. Personnel under the direction of the processor</label>
     </entry>
     <entry>
       <code>external</code>
-      <label>3. Derden</label>
+      <label>3. Third parties</label>
     </entry>
   </codelist>
 </codelists>
