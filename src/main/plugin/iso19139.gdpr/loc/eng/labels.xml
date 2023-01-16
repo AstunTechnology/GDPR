@@ -1132,7 +1132,7 @@
   <element name="gmd:environmentDescription" id="44.0">
     <label>Environment description</label>
     <btnLabel>Add environment description</btnLabel>
-    <description>Description of the dataset in the producer_s processing environment, including
+    <description>Description of the dataset in the producer's processing environment, including
       items such as the software, the computer operating system, file name, and the dataset
       size
     </description>
@@ -1251,7 +1251,7 @@
     <description>Text description of the illustration</description>
   </element>
   <element name="gmd:fileIdentifier" id="2.0">
-    <label>Meldingsnummer</label>
+    <label>Unique identifier</label>
     <description>Unique identifier for this metadata file</description>
   </element>
   <element name="gmd:fileName" id="49.0">
@@ -3397,12 +3397,12 @@
 
   <!-- Gdpr -->
     <element name="gdpr:purpose">
-      <label>Purpose of processing</label>
+      <label>Purpose</label>
       <btnLabel>Add purpose</btnLabel>
       <description>For what purpose or for what related purposes do you process personal data?</description>
     </element>
     <element name="gdpr:MD_Purpose">
-      <label>Purpose</label>
+      <label>Purpose of processing</label>
       <description></description>
     </element>
     <element name="gdpr:abstract">
@@ -3412,6 +3412,10 @@
     <element name="gdpr:legalBasis">
       <label>Legal basis</label>
       <description>Processing of data is only lawful with regard to the data subject if there is a legal basis.</description>
+    </element>
+    <element name="gdpr:explanation">
+      <label>Explanation</label>
+      <description></description>
     </element>
     <element name="gdpr:name" context="/gmd:MD_Metadata/gmd:contentInfo/gdpr:MD_ContentInfo/gdpr:involves/gdpr:MD_Involved/gdpr:name">
       <label>Description of person concerned</label>
@@ -3424,6 +3428,10 @@
     <element name="gdpr:storagePeriod">
       <label>Storage period</label>
       <description>Indicate how long the data may be stored for</description>
+    </element>
+    <element name="gdpr:groundForStorage">
+      <label>Ground for storage</label>
+      <description>You can keep personal data indefinitely if you are holding it only for: archiving purposes in the public interest; scientific or historical research purposes; or statistical purposes.</description>
     </element>
     <element name="gdpr:CI_StoragePeriodCode">
       <label>Storage period code</label>
@@ -3513,7 +3521,6 @@
     </element>
     <element name="gdpr:security">
       <label>Security</label>
-      <btnLabel>Add security measure</btnLabel>
       <description>An appropriate security level assumes that a planning and control cycle (plan-do-check-act) is used, which can be used to assess whether the security is always adequate for the current state of technology and the organization. 
       For measures to be taken, security frameworks and standards (such as NEN 27001), best practices and approved codes of conduct and certification mechanisms can be used. 
       For the central government, there are the Regulations for Information Security of the Civil Service (VIR) and the Baseline Information Security of the Civil Service (BIR) derived from it. 
@@ -3528,10 +3535,12 @@
       <description>Indicate whether you protect the personal data</description>
     </element>
     <element name="gdpr:securityMeasures">
+      <btnLabel>Add security measure</btnLabel>
       <label>Security measures</label>
       <description>What measures have you taken to protect the personal data?</description>
     </element>
     <element name="gdpr:accessParty">
+      <btnLabel>Add access party</btnLabel>
       <label>Who has access to the personal data?</label>
       <description>Multiple answers possible</description>
     </element>
