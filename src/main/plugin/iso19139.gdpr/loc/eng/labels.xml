@@ -785,7 +785,7 @@
     <description>Address of the responsible party</description>
     <label>Contact Information</label>
   </element>
-  <element name="gmd:contactInstructions" id="392.0">
+  <element name="gmd:contactInformation" id="392.0">
     <label>Contact instructions</label>
     <description>Supplemental instructions on how or when to contact the individual or
       organization
