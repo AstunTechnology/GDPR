@@ -3521,10 +3521,10 @@
     </element>
     <element name="gdpr:security">
       <label>Security</label>
-      <description>An appropriate security level assumes that a planning and control cycle (plan-do-check-act) is used, which can be used to assess whether the security is always adequate for the current state of technology and the organization. 
-      For measures to be taken, security frameworks and standards (such as NEN 27001), best practices and approved codes of conduct and certification mechanisms can be used. 
-      For the central government, there are the Regulations for Information Security of the Civil Service (VIR) and the Baseline Information Security of the Civil Service (BIR) derived from it. 
-      The VIR and the BIR will be updated in 2017.</description>
+      <btnLabel>Add security measure</btnLabel>
+      <description>An appropriate security level assumes that a planning and control cycle (plan-do-check-act) is used, which can be used to assess whether the security is 
+      always adequate for the current state of technology and the organization. For measures to be taken, security frameworks and standards (such as ISO 27001), best practices 
+      and approved codes of conduct and certification mechanisms can be used.</description>
     </element>
     <element name="gdpr:MD_Security">
       <label>Security</label>
@@ -3610,10 +3610,9 @@
     <element name="gdpr:CI_SecurityMeasures">
       <label>Security measures</label>
       <btnLabel>Add security measure</btnLabel>
-      <description>An appropriate security level assumes that a planning and control cycle (plan-do-check-act) is used, which can be used to assess whether the security is always adequate for the current state of technology and the organization. 
-      For measures to be taken, security frameworks and standards (such as NEN 27001), best practices and approved codes of conduct and certification mechanisms can be used. 
-      For the national government, there are the Regulations for Information Security of the Government Service (VIR) and the Baseline Information Security of the Government Service (BIR) derived from it. 
-      The VIR and the BIR will be updated in 2017.</description>
+      <description>An appropriate security level assumes that a planning and control cycle (plan-do-check-act) is used, which can be used to assess whether the security is 
+      always adequate for the current state of technology and the organization. For measures to be taken, security frameworks and standards (such as ISO 27001), best practices 
+      and approved codes of conduct and certification mechanisms can be used.</description>
     </element>
     <element name="gdpr:CI_AccessParty">
       <label>Access party</label>
@@ -3637,9 +3636,8 @@
       <btnLabel>Add transfer</btnLabel>
       <description>Transfer of personal data within the EU. 
       
-      Within the EU, the level of data protection under the GDPR is the same. That's because the GDPR applies in all EU member states. 
-      The EU is therefore one jurisdiction in the protection of personal data. If an organization transfers data from the Netherlands to another EU country or to countries within the European Economic Area (EEA, these are Norway, Liechtenstein and Iceland), then that organization only has to comply with the general requirements of the GDPR. 
-      These 'receiving' countries in any case have an appropriate level of protection of personal data.</description>
+      You are advised to seek guidance on the transfer of personal data under the UK GDPR- for example from 
+      <link><![CDATA[https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/international-transfers/]]></link></description>
     </element>
     <element name="gdpr:MD_AutomaticDecisionMaking">
       <label>Automated decision-making</label>
