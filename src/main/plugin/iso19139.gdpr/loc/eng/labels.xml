@@ -3539,6 +3539,10 @@
       <label>Security measures</label>
       <description>What measures have you taken to protect the personal data?</description>
     </element>
+    <element name="gdpr:inControl">
+      <label>Control</label>
+      <description>Are measures checked?</description>
+    </element>
     <element name="gdpr:accessParty">
       <btnLabel>Add access party</btnLabel>
       <label>Who has access to the personal data?</label>

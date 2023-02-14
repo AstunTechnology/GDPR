@@ -277,15 +277,15 @@
     <entry>
       <code>processor</code>
       <label>Processor</label>
-      <description>Party wha has processed the data in a manner such that the resource has been
+      <description>Party who has processed the data in a manner such that the resource has been
         modified
       </description>
     </entry>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
     <entry>
       <code>subprocessor</code>
-      <label>subverwerker</label>
-      <description>Partij die de data als onderaannemer heeft verwerkt, zodanig dat de data is gewijzigd.</description>
+      <label>Subprocessor</label>
+      <description>Party who has processed the data as a subcontractor, in such a way that the data has been changed.</description>
     </entry>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
     <entry>
@@ -2258,7 +2258,7 @@
     </entry>
     <entry>
       <code>withheld</code>
-      <label>With held</label>
+      <label>Withheld</label>
     </entry>
   </codelist>
 
@@ -2664,7 +2664,6 @@
       <code>9.4</code>
       <label>Identify / evaluate hazards that employees are exposed to hazardous substances or biological agents</label>
     </entry>
-
     <entry>
       <code>10</code>
       <label>Not archiveworthy</label>
