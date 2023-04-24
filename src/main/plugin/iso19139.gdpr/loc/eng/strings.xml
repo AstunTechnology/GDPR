@@ -58,7 +58,7 @@
   <system>System</system>
   <security>Security</security>
   <transmision>Transmision</transmision>
-  <pia>GEB (PIA)</pia>
+  <pia>DPIA</pia>
   <slot>Final</slot>
 
   <!-- GDPR sections -->
@@ -129,7 +129,7 @@
     <p><br/><br/></p>
   </txt_transmision>
 
-  <ttl_pia><h2>Privacy Impact Assessment</h2></ttl_pia>
+  <ttl_pia><h2>Data Protection Impact Assessment</h2></ttl_pia>
   <txt_pia>
     <p><br/></p><br/>
   </txt_pia>
