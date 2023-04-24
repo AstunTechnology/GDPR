@@ -41,7 +41,7 @@
   <simple>Simple</simple>
   <inspire>INSPIRE</inspire>
   <inspire_sds>SDS</inspire_sds>
-  <advanced>GDPR</advanced>
+  <advanced>Advanced</advanced>
 
   <!-- GDPR view -->
   <intro>Intro</intro>
@@ -59,7 +59,7 @@
   <security>Security</security>
   <transmision>Transmission</transmision>
   <pia>GEB (PIA)</pia>
-  <slot>Slot</slot>
+  <slot>Final</slot>
 
   <!-- GDPR sections -->
   <gdpr>GDPR</gdpr>
@@ -68,6 +68,52 @@
   <addResponsible>Add responsible</addResponsible>
   <addSecurityConstraints>Add security constraints</addSecurityConstraints>
   <addProcessType>Add process type</addProcessType>
+
+  <addMeldingsplichtig>Personal data?</addMeldingsplichtig>
+
+  <!-- GDPR -->
+  <gdpr-vw>GDPR</gdpr-vw>
+  <Meldingsplichtig>Personal data?</Meldingsplichtig>
+  <gdpr>GDPR</gdpr>
+
+  <!-- GDPR texts -->
+  <ttl_intro><h2>Registration of a dataset related to GDPR</h2></ttl_intro>
+  <txt_intro>
+    <p> <br/></p>
+  </txt_intro>
+
+  <ttl_responsible><h2>Responisble</h2></ttl_responsible>
+  <txt_responsible>
+    <p></p>
+    <br/>
+  </txt_responsible>
+
+  <ttl_processors><h2>Processor</h2></ttl_processors>
+  <txt_processors>
+    <p><br/></p>
+  </txt_processors>
+
+  <ttl_purpose><h2>Processing purpose</h2></ttl_purpose>
+  <txt_purpose>
+    <p><br/>
+      <br/></p>
+  </txt_purpose>
+
+  <ttl_involves><h2>Involved persons</h2></ttl_involves>
+  <txt_involves>
+    <p><br/><br/></p>
+  </txt_involves>
+
+  <ttl_decision><h2>Automated decisions</h2></ttl_decision>
+  <txt_decision>
+    <p><br/>
+    </p><br/>
+  </txt_decision>
+
+  <ttl_provision><h2>Distributor</h2></ttl_provision>
+  <txt_provision>
+    <p><br/><br/></p>
+=======
   <addMeldingsplichtig>Is there personal data?</addMeldingsplichtig>
 
   <!-- GDPR -->
@@ -119,6 +165,30 @@
 
   <ttl_system><h2>System or application</h2></ttl_system>
   <txt_system>
+
+    <p><br/><br/></p>
+  </txt_system>
+
+  <ttl_security>Security measures</ttl_security>
+  <txt_security>
+    <p><br/><br/></p>
+  </txt_security>
+
+  <ttl_transmision>Transmission</ttl_transmision>
+  <txt_transmision>
+    <p><br/><br/></p>
+  </txt_transmision>
+
+  <ttl_pia><h2>Privacy Impact Assessment</h2></ttl_pia>
+  <txt_pia>
+    <p><br/></p><br/>
+  </txt_pia>
+
+  <ttl_slot><h2>Remarks</h2></ttl_slot>
+  <txt_slot>
+    <p><br/><br/></p>
+  </txt_slot>
+
     <p><br/>From the point of view of optimizing the security of personal data and its possible recovery in the event of (for example) a data breach, it is important to know with which information system or with which application the processing of personal data takes place . Enter the name of the information system or application through which the processing takes place in the text box provided.<br/></p>
   </txt_system>
 
@@ -143,6 +213,7 @@
   <txt_lock>
     <p><br/>You can also add comments to the processing. The comments you add relate to the processing in question and are for internal use, i.e. they are not published. This may, for example, concern reminders, announcements and mutation data, but also references to other processing operations, or references to documents such as a PIA, a processing agreement, an established arrangement with several controllers, management measures based on a GEB/PIA, data leaks with the information system and so on.<br/></p>
   </txt_lock>
+
 
 
 
